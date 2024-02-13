@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Ramesh">
+  <meta name="desciption" content="MY HTML">
+  <title>My first Page</title>
+  <link rel="icon" href="html.PNG" type="image/x-icon">
+  <link rel="stylesheet" href="mycss.css" type="text/css">
+
+</head>
+
+<body>
+ <header>
+  
+  <h1>&nbsp;&nbsp;&nbsp;&nbsp;Hello all!</h1>
+  <hr>
+  <nav aria-label="primary_navigation">
+    <h2 id="primary_navigation"> Primary Navigation</h2>
+    <ul>
+      <li><a href="#ch1"> Chapter 1</a></li>
+      <li><a href="#ch2"> Chapter 2</a></li>
+      <li><a href="#contact"> Contact Me</a></li>
+    </ul>
+  </nav>
+  <hr>
+ </header>
+ <main>
+ 
+  <section id="ch1">
+
+    <h2> This is chapter <u>1</u></h2>
+    <p>I am going to <em>learn <strong>html</strong> and css.</em></p>
+    <h2> 1 st Html Program</h2>
+    <p> This is my first <br>html program</p>
+    <h3> this the example of H3</h3>
+    <p> this is the of h3 and p tag</p>
+    <p> this is my address</p>
+    <p><abbr title="TINDIVANAM">TVM</abbr></p>
+    <address>tindivanam</address>
+    <hr>
+    <p>Let's see about ordered and Unordered List</p>
+    <p> Ordered List</p>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+      <li>React</li>
+    </ol>
+    <p> Unordered List</p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+      <li>React</li>
+    </ul>
+    <p>Description List</p>
+    <dl>
+      <dt>HTML:</dt>
+      <dd>Hyper Text Matkup Language</dd>
+      <dt>CSS:</dt>
+      <dd>Cascading Style Sheet</dd>
+      <dt>JS:</dt>
+      <dd>Java Script</dd>
+    </dl>
+  </section>
+  <section id="ch2">
+    <h2> This is chapter 2</h2>
+    <p>I am going to <em>learn <strong>Links</strong> in html.</em></p>
+    <h2> 1 st Html Program</h2>
+    <p> This is my first <br>html program</p>
+    <h3> this the example of H3</h3>
+    <p> this is the of h3 and p tag</p>
+    <p> this is my address</p>
+    <p><abbr title="TINDIVANAM">TVM</abbr></p>
+    <address>tindivanam</address>
+  </section>
+  <section id="contact">
+    <hr>
+    <h2> Contact Me:</h2>
+    <p> I would like to hear you</p>
+    <form action="https://httpbin.org/get" target="blank" method="get">
+      <fieldset>
+       <legend>User Info</legend>
+      <p>
+      <label for="firstName">First Name:</label>
+      <input type="text" name="firstName" id="firstName" placeholder="FirstName" autocomplete="on" required>
+      </p>
+      <p>
+      <label for="lastName">Last Name:</label>
+      <input type="text" name="lastName" id="lastName" placeholder="LastName" autocomplete="on" required>
+      </p>
+
+      <p>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" name="phone" id="phone" placeholder="999-999-9999" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      </p>
+
+      <p>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" placeholder="Password" autocomplete="on" required>
+      </p>
+
+      <p>
+      <label for="age">Age:</label>
+      <input type="number" name="password" id="age" min="16" max="100" value="16" step="2">
+      </p>
+      
+   <!--<p>
+      <label for="content"> Your Favourite item</label>
+      <select name="content" id="content" multiple size="2">
+        <optgroup label="Development">
+        <option value="frontend">Frontend</option>
+        <option value="backend" selected>backend</option>
+        <option value="middleware">Middleware</option>
+        </optgroup>
+        <optgroup label="HCM">
+        <option value="oracle">oracle</option>
+        <option value="sap">Sap</option>
+        <option value="workday">Workday</option>
+        </optgroup>
+        <optgroup label="AI">
+        <option value="chatgpt">chatgpt</option>
+        <option value="bing">bing</option>
+        </optgroup>
+      </select>
+      </p>-->
+      <p>
+      <label for="content"> Your Favourite item</label>
+      <input type="text" name="content" id="content" list="content-list">
+        <datalist id="content-list">
+        
+        <option value="frontend">
+        <option value="backend" selected>
+        <option value="middleware">
+        
+        
+        <option value="sap">
+        <option value="workday">
+       
+        <option value="chatgpt">
+        <option value="bing">
+        </datalist>
+        </p>
+    </fieldset>
+    <br>
+    <fieldset>
+     <legend>Fav Food</legend>
+     <p>
+     <input type="radio" name="food" id="paner" value="paneer">
+     <label for="paneer">paneer</label>
+     </p>
+     <p>
+     <input type="radio" name="food" id="mushrom" value="mushroom">
+     <label for="mushroom">mushroom</label>
+     </p>
+     <p>
+     <input type="radio" name="food" id="babycornn" value="babycorn">
+     <label for="babycorn">babycorn</label>
+     </p>
+    </fieldset>
+    <br>
+    <fieldset>
+     <legend>Fav Food</legend>
+     <p>
+     <input type="checkbox" name="food" id="paneer" value="paneer">
+     <label for="paneer">paneer</label>
+     </p>
+     <p>
+     <input type="checkbox" name="food" id="mushroom" value="mushroom">
+     <label for="mushroom">mushroom</label>
+     </p>
+     <p>
+     <input type="checkbox" name="food" id="babycorn" value="babycorn">
+     <label for="babycorn">babycorn</label>
+     </p>
+    </fieldset>
+    <fieldset>
+     <legend>Your Feedback</legend>
+     <label for="msg">message</label>
+     <p>
+     <textarea name="msg" id="msg" cols="30" rows="10" placeholder="type your message...."></textarea>
+     </p>
+    </fieldset>
+    <button type="submit">Submit</button>
+    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+    <button type="reset">reset</button>
+    </form> 
+  </section>
+  <div>
+     <p> Example for div tag</p>
+  </div>
+   <hr>
+ </main>
+ <footer>
+  <p>&lt;&lt;&copy;ramesh&gt;&gt;</p>
+  <p>To Learn more, click <abbr title="W3School"><a href="https://www.w3schools.com/html/"> Here</a></abbr> </p>
+  <a href="about_me.html"> About Me</a>
+  <p><a href="#"> Back to Top</a>
+  <p>
+ </footer>
+</body>
+
+</html>
